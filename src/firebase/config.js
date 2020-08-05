@@ -1,9 +1,9 @@
 export const config = {
-  apiKey: "AIzaSyA1gkIA3GUHnxMkFrAy2itcmoFTlWV7YM8",
-  authDomain: "postgram-38cad.firebaseapp.com",
-  databaseURL: "https://postgram-38cad.firebaseio.com",
-  projectId: "postgram-38cad",
-  storageBucket: "postgram-38cad.appspot.com",
-  messagingSenderId: "1029913541884",
-  appId: "1:1029913541884:web:d4fa3a2bda05313e43eb79",
+  apiKey: "AIzaSyDjSa9_knYBBfJHl8oZhdKXhak7WXmyLVI",
+  authDomain: "react-postgram-login.firebaseapp.com",
+  databaseURL: "https://react-postgram-login.firebaseio.com",
+  projectId: "react-postgram-login",
+  storageBucket: "react-postgram-login.appspot.com",
+  messagingSenderId: "409833887916",
+  appId: "1:409833887916:web:c021b7ac8488da3ce26709"
 };
