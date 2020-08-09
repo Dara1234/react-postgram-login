@@ -4,6 +4,7 @@ import { Router } from "@reach/router";
 import MainPage from "./posts/MainPage";
 import Login from "./auth/Login";
 import Register from "./auth/Register";
+import ResetPassword from "./auth/ResetPassword";
 import "./App.css";
 import "antd/dist/antd.css";
 
@@ -14,6 +15,7 @@ function App() {
         <MainPage path="/" />
         <Login path="/login" />
         <Register path="/register" />
+        <ResetPassword path="/reset" />
       </Router>
     </ProvideFirebase>
   );

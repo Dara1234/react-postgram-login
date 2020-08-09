@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button, Layout } from "antd";
 import { useFirebase } from "../firebase/useFirebase";
 import { Link } from "@reach/router";
+import ChangePassword from "../auth/ChangePassword";
 
 const MainLayout = styled(Layout)`
   width: 100vw;
@@ -38,6 +39,7 @@ function MainPage() {
   return (
     <MainLayout>
       <Button onClick={onLogoutClick}>Logout</Button>
+        <ChangePassword />
     </MainLayout>
   );
 }

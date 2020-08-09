@@ -69,6 +69,9 @@ function Login() {
       <TextLayout>
         Don't have login yet? Register <Link to="/register">here</Link>
       </TextLayout>
+      <TextLayout>
+        Forget your password? Reset <Link to="/reset">here</Link>
+      </TextLayout>
     </MainLayout>
   );
 }
